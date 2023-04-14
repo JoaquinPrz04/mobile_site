@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	font-family: 'Abel', sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	color: #000000;
+	padding: 0px;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#FFFFFF;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	border:  2px solid #CFD8DC;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+ body {
+	 background-color: #ECEFF1;
+ }
+ 
+ #cards {
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	width: 95%; 
+	margin-bottom: 15px;
+	border: 1px solid #CFD8DC;
+}
+
+ #profilePic {
+	border-radius: 50%;
+	border: 1px solid #CFD8DC; 
+}
+
+ #topMenu {
+	background-color: #FFFFFF;
+	font-weight: bold;
+	padding: 5px;
+	margin: 0px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	width: 100%; 
+	border: 1px solid #CFD8DC;
+}
+
+#userCard {
+	width: 95%; 
+	margin-bottom: 15px;
+}
+
+input[type=textarea] {
+width: 80%;
+border: 2px solid #CFD8DC;
+border-radius: 5px;
+outline: none;
+padding: 5px;
+transition: .3s;
+}
+
+input[type=textarea]:focus {
+border-color: #CFD8DC;
+}
+
+input[type=password]:focus {
+border-color: #CFD8DC;
+}
+
+input[type=password] {
+width: 80%;
+border: 2px solid #00ACC1;
+border-radius: 5px;
+outline: none;
+padding: 5px;
+transition: .3s;
+}
+
+#bYear {
+width: 10%;
+border: 2px solid #00ACC1;
+border-radius: 5px;
+outline: none;
+padding: 5px;
+transition: .3s;
+}
+
+#bMonth {
+width: 10%;
+border: 2px solid #00ACC1;
+border-radius: 5px;
+outline: none;
+padding: 5px;
+transition: .3s;
+}
+
+#bDay {
+width: 10%;
+border: 2px solid #00ACC1;
+border-radius: 5px;
+outline: none;
+padding: 5px;
+transition: .3s;
+}
+
+#gender {
+width: 10%;
+border: 2px solid #00ACC1;
+border-radius: 5px;
+outline: none;
+padding: 5px;
+transition: .3s;
+}
+
+#state {
+width: 10%;
+border: 2px solid #00ACC1;
+border-radius: 5px;
+outline: none;
+padding: 5px;
+transition: .3s;
+}
+
+#post_text {
+width: 98%;
+border: 2px solid #00ACC1;
+border-radius: 5px;
+outline: none;
+padding: 5px;
+transition: .3s;
+}
+
+#userInfo {
+	padding: 10px;
+}
+
+
+#top {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 15px;
+}
+
+#alert {
+	border: #000000 medium solid;
+	border-radius: 5px;
+	background-color: #F44336;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
